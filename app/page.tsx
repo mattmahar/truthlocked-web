@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center p-8">
-      <h1 className="text-3xl md:text-4xl font-light text-center mb-6">
+      <h1 className="text-3xl font-light text-center mb-6">
         Is this the thing you’ve never said out loud?
       </h1>
 

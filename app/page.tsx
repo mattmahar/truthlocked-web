@@ -1,4 +1,14 @@
+'use client';
+import { useEffect } from 'react';
+
 export default function Home() {
+  useEffect(() => {
+    const audio = new Audio('/whisper.mp3');
+    audio.loop = true;
+    audio.volume = 0.2;
+    audio.play().catch(() => {});
+  }, []);
+
   return (
     <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center p-8">
       <h1 className="text-3xl md:text-4xl font-light text-center mb-6">

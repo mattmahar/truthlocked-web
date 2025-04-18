@@ -1,6 +1,6 @@
 'use client';
 import { useEffect } from 'react';
-import { Player } from '@lottiefiles/react-lottie-player';
+import Lock from '../components/Lock';
 
 export default function Home() {
   useEffect(() => {
@@ -12,12 +12,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center p-8">
-      <Player
-        autoplay
-        loop
-        src="/lock.json"
-        className="w-44 h-44 mb-6"
-      />
+      <Lock />
       <h1 className="text-3xl md:text-4xl font-light text-center mb-6">
         Is this the thing you’ve never said out loud?
       </h1>

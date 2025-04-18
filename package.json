@@ -5,6 +5,7 @@
   ...
 },
 "devDependencies": {
+  "@lottiefiles/react-lottie-player": "^3.5.4",
   "@types/react": "^18.2.0",
   "typescript": "^5.3.3"
 }
